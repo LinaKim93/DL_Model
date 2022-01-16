@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/anaconda3/envs/models/bin/python",
+    "python.linting.pylintEnabled": true,
+    "editor.formatOnSave": true,
+}
