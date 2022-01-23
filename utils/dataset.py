@@ -15,7 +15,7 @@ def set_dict():
     return dict_list
 
 
-def GetTrainData(path):
+def CreateTrainDataSet(path):
     """
     This function returns a list of all files in a directory
     """
