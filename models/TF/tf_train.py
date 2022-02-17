@@ -1,7 +1,6 @@
+import os
 import sys
-sys.path.append('/home/linakim') # append your path
-from utils.dataset import CreateTrainDataSet, set_dict
-from models.TF.Classifier.LeNet.Lenet import LeNet
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(os.path.abspath(os.path.dirname(os.path.abspath(__file__)))))))  # append your path
 
 
 def train():
@@ -9,8 +8,4 @@ def train():
 
 
 if __name__ == "__main__":
-    dict_list = set_dict()
-    path = 'dataset'
-    x_train, y_train = CreateTrainDataSet(path)
-
-    print(x_train.shape, y_train.shape)
+    pass

@@ -1,1 +1,0 @@
-docker exec model_make python $1
