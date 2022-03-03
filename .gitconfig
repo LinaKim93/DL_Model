@@ -1,0 +1,8 @@
+[user]
+	name = LinaKim93
+	email = release93@gmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential]
+	helper = "!f() { /home/linakim/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /tmp/vscode-remote-containers-4eb9e46a8b18d9509279d8aeb39dccfe59969cdd.js $*; }; f"

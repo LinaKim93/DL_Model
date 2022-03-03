@@ -1,2 +1,8 @@
 dataset
 __pycache__
+.vscode-server
+.gnupg
+.vscode
+.cache
+.keras
+.nv
